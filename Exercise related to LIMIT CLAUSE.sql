@@ -1,0 +1,4 @@
+-- GET THE TOP THREE LOYAL CUSTOMERS i.e. the customers having more points
+SELECT * FROM CUSTOMERS
+ORDER BY POINTS DESC
+LIMIT 3 
